@@ -32,4 +32,5 @@ Lita.configure do |config|
   config.redis[:url] = ENV["REDISTOGO_URL"]
 
   config.handlers.keepalive.url = ENV["HEROKU_URL"]
+  config.handlers.keepalive.minutes = 180
 end
