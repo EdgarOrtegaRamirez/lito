@@ -7,3 +7,4 @@ gem "lita-keepalive", github: "EdgarOrtegaRamirez/lita-keepalive", branch: "conf
 gem "lita-applause"
 gem "lita-poll"
 gem "lita-team", github: "EdgarOrtegaRamirez/lita-team", branch: "test"
+gem "lita-tell", github: "charly-palencia/lita-tell", branch: "master"

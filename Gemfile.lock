@@ -15,6 +15,14 @@ GIT
       lita (>= 4.3)
 
 GIT
+  remote: git://github.com/charly-palencia/lita-tell.git
+  revision: 9da2386a382574c931118d1561040775dccf00f2
+  branch: master
+  specs:
+    lita-tell (0.1.1)
+      lita (>= 4.4)
+
+GIT
   remote: git://github.com/kenjij/lita-slack.git
   revision: e258bd1ace1da556c5ab45b3e4282d6c6dfd3761
   branch: master
@@ -58,7 +66,7 @@ GEM
       lita (>= 4.2.1)
     multi_json (1.11.2)
     multipart-post (2.0.0)
-    puma (2.12.2)
+    puma (2.12.3)
     rack (1.6.4)
     rb-readline (0.5.3)
     redis (3.2.1)
@@ -81,6 +89,4 @@ DEPENDENCIES
   lita-poll
   lita-slack!
   lita-team!
-
-BUNDLED WITH
-   1.10.5
+  lita-tell!
