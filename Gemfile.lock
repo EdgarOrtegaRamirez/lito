@@ -16,10 +16,10 @@ GIT
 
 GIT
   remote: git://github.com/charly-palencia/lita-tell.git
-  revision: bd015309d56898c6b248ca3b77299ea97879e1ad
+  revision: 3e83df9986117522690a5bf479c8c16f30e9bb34
   branch: master
   specs:
-    lita-tell (0.1.2)
+    lita-tell (0.1.3)
       lita (>= 4.4)
 
 GIT
