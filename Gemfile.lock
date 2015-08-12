@@ -16,10 +16,10 @@ GIT
 
 GIT
   remote: git://github.com/charly-palencia/lita-tell.git
-  revision: 9da2386a382574c931118d1561040775dccf00f2
+  revision: bd015309d56898c6b248ca3b77299ea97879e1ad
   branch: master
   specs:
-    lita-tell (0.1.1)
+    lita-tell (0.1.2)
       lita (>= 4.4)
 
 GIT
@@ -37,7 +37,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    eventmachine (1.0.7)
+    eventmachine (1.0.8)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.0)
