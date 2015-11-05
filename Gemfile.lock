@@ -16,10 +16,10 @@ GIT
 
 GIT
   remote: git://github.com/kenjij/lita-slack.git
-  revision: f9d08bf19b708c616302384c4bf7e226cdf0b51a
+  revision: 7d4c5f7a835dd02df6f9175de5c8a8da48de6191
   branch: master
   specs:
-    lita-slack (1.7.0)
+    lita-slack (1.7.1)
       eventmachine
       faraday
       faye-websocket (>= 0.8.0)
