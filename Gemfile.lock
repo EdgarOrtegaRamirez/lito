@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/EdgarOrtegaRamirez/lita-team.git
-  revision: e79f923a02f7cd37a4be3e55c653842c4b0e2378
+  revision: 74e3a31a942a40d865bf3af686d3f8b90adeb2c5
   branch: test
   specs:
     lita-team (1.0.0)
