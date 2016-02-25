@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/EdgarOrtegaRamirez/lita-team.git
-  revision: 74e3a31a942a40d865bf3af686d3f8b90adeb2c5
-  branch: test
-  specs:
-    lita-team (1.0.0)
-      lita (>= 4.3)
-
-GIT
   remote: git://github.com/charly-palencia/lita-tell.git
   revision: 0da540502b9a794bb4aaae470cd6346f9a2c64b2
   branch: master
@@ -50,9 +42,11 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.6.0)
       multi_json
+    lita-team (2.0.0)
+      lita (>= 4.7)
     multi_json (1.11.2)
     multipart-post (2.0.0)
-    puma (2.16.0)
+    puma (3.0.1)
     rack (1.6.4)
     rb-readline (0.5.3)
     redis (3.2.2)
@@ -73,7 +67,7 @@ DEPENDENCIES
   lita-applause
   lita-poll
   lita-slack
-  lita-team!
+  lita-team
   lita-tell!
 
 BUNDLED WITH
