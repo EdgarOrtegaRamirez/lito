@@ -42,7 +42,7 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.6.0)
       multi_json
-    lita-team (2.1.0)
+    lita-team (2.2.0)
       lita (>= 4.7)
     multi_json (1.11.2)
     multipart-post (2.0.0)
