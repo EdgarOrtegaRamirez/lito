@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/horozco/lita-team-balance.git
-  revision: 32b433778f68e053a5d7b8e1bb11248718f0e006
+  revision: 01964a847b012c72015f4ae49b5ba5559bf6d27d
   branch: master
   specs:
     lita-team-balance (0.1.0)
