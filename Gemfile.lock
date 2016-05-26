@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/EdgarOrtegaRamirez/lita-poke.git
+  revision: e2210c3ceda37729ad47260b7b8f56a297933994
+  branch: master
+  specs:
+    lita-poke (0.1.0)
+      lita (>= 4.7)
+      pokeapi (> 0.3.0)
+
+GIT
   remote: git://github.com/charly-palencia/lita-tell.git
   revision: 0da540502b9a794bb4aaae470cd6346f9a2c64b2
   branch: master
@@ -18,12 +27,25 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
+    domain_name (0.5.20160615)
+      unf (>= 0.0.5, < 1.0.0)
     eventmachine (1.2.0.1)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.3)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    hashie (3.4.4)
+    http (2.0.2)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    http-form_data (1.0.1)
+    http_parser.rb (0.6.0)
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -55,14 +77,20 @@ GEM
       lita (>= 4.7)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    pokeapi (0.5.1)
+      hashie (~> 3.4.4)
+      http (~> 2.0.1)
     puma (3.4.0)
-    rack (1.6.4)
+    rack (2.0.1)
     rb-readline (0.5.3)
     redis (3.3.0)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     terminal-table (1.5.2)
     thor (0.19.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
     url_mount (0.2.1)
       rack
     websocket-driver (0.6.3)
@@ -75,11 +103,15 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-applause
+  lita-poke!
   lita-poll
   lita-slack
   lita-team
   lita-team-balance!
   lita-tell!
 
+RUBY VERSION
+   ruby 2.3.0p0
+
 BUNDLED WITH
-   1.11.2
+   1.12.5
