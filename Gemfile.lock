@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/EdgarOrtegaRamirez/lita-slack-reactions.git
-  revision: 70404ffdd1a3784078232be130f7852a12cda676
+  revision: 9f8dc372dc8434833c3ef80728ef815c8d8621af
   branch: master
   specs:
     lita-slack-reactions (0.1.0)
@@ -14,6 +14,14 @@ GIT
   specs:
     lita-tell (0.1.4)
       lita (>= 4.4)
+
+GIT
+  remote: git://github.com/equintana/lita-service.git
+  revision: 8b5584b1e10a1a5cf42c28b4154950368dc2cc2f
+  branch: master
+  specs:
+    lita-service (0.1.0)
+      lita (>= 4.7)
 
 GIT
   remote: git://github.com/horozco/lita-team-balance.git
@@ -41,9 +49,9 @@ GEM
   specs:
     addressable (2.3.8)
     eventmachine (1.2.0.1)
-    faraday (0.9.2)
+    faraday (0.10.0)
       multipart-post (>= 1.2, < 3)
-    faye-websocket (0.10.4)
+    faye-websocket (0.10.5)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
     http_router (0.11.2)
@@ -74,14 +82,16 @@ GEM
       lita (>= 4.7)
     multi_json (1.12.1)
     multipart-post (2.0.0)
-    puma (3.6.0)
-    rack (1.6.4)
+    puma (3.6.2)
+    rack (1.6.5)
     rb-readline (0.5.3)
-    redis (3.3.1)
+    redis (3.3.2)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
-    terminal-table (1.5.2)
-    thor (0.19.1)
+    terminal-table (1.7.3)
+      unicode-display_width (~> 1.1.1)
+    thor (0.19.4)
+    unicode-display_width (1.1.1)
     url_mount (0.2.1)
       rack
     websocket-driver (0.6.4)
@@ -95,6 +105,7 @@ DEPENDENCIES
   lita
   lita-applause
   lita-poll
+  lita-service!
   lita-slack!
   lita-slack-reactions!
   lita-team
@@ -105,4 +116,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.1
+   1.13.6
